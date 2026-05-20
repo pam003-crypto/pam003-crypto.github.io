@@ -25,6 +25,8 @@ body {
     "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
 }
 
 button,
@@ -99,6 +101,7 @@ output {
   line-height: 1;
   cursor: pointer;
   user-select: none;
+  touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
 
