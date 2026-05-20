@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <section class="iphone-calculator" aria-label="Calculator">
+        <section class="display" aria-live="polite">
+          <output id="mainDisplay" class="main-display">0</output>
+        </section>
+
+        <section class="keypad" aria-label="Calculator keypad">
+          <button class="key utility backspace-icon" type="button" data-action="backspace" aria-label="Backspace"></button>
+          <button class="key utility" type="button" data-action="clear">AC</button>
+          <button class="key utility percent" type="button" data-action="percent">%</button>
+          <button class="key operator" type="button" data-action="divide" aria-label="Divide">&divide;</button>
+
+          <button class="key" type="button" data-digit="7">7</button>
+          <button class="key" type="button" data-digit="8">8</button>
+          <button class="key" type="button" data-digit="9">9</button>
+          <button class="key operator multiply" type="button" data-action="next" aria-label="Multiply"></button>
+
+          <button class="key" type="button" data-digit="4">4</button>
+          <button class="key" type="button" data-digit="5">5</button>
+          <button class="key" type="button" data-digit="6">6</button>
+          <button class="key operator minus" type="button" data-action="next" aria-label="Minus"></button>
+
+          <button class="key" type="button" data-digit="1">1</button>
+          <button class="key" type="button" data-digit="2">2</button>
+          <button class="key" type="button" data-digit="3">3</button>
+          <button class="key operator plus" type="button" data-action="plus" aria-label="Plus"></button>
+
+          <button class="key sign" type="button" data-action="sign">+/-</button>
+          <button class="key" type="button" data-digit="0">0</button>
+          <button class="key dot" type="button" data-action="dot">.</button>
+          <button class="key operator" type="button" data-action="unlock">=</button>
+        </section>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
