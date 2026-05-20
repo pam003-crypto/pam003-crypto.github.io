@@ -81,7 +81,7 @@ output {
 .keypad {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 17px;
+  gap: 11px;
   padding: 0 19px;
 }
 
@@ -212,7 +212,7 @@ output {
   }
 
   .keypad {
-    gap: min(17px, 4vw);
+    gap: min(11px, 3vw);
   }
 }
 
@@ -232,7 +232,7 @@ output {
   }
 
   .keypad {
-    gap: 11px;
+    gap: 8px;
   }
 
   .key {
