@@ -62,7 +62,7 @@ output {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 0 19px 42px;
+  padding: 0 19px 20px;
   text-align: right;
 }
 
@@ -223,7 +223,7 @@ output {
   }
 
   .display {
-    padding-bottom: 24px;
+    padding-bottom: 14px;
   }
 
   .main-display {
