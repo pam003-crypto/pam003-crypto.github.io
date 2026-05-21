@@ -19,7 +19,12 @@
         </section>
 
         <section class="keypad" aria-label="Calculator keypad">
-          <button class="key utility backspace-icon" type="button" data-action="backspace" aria-label="Backspace"></button>
+          <button class="key utility backspace-icon" type="button" data-action="backspace" aria-label="Backspace">
+            <svg viewBox="0 0 48 36" aria-hidden="true">
+              <path d="M18 4H42C44.2 4 46 5.8 46 8V28C46 30.2 44.2 32 42 32H18L4 18L18 4Z" />
+              <path d="M24 12L34 22M34 12L24 22" />
+            </svg>
+          </button>
           <button class="key utility" type="button" data-action="clear">AC</button>
           <button class="key utility percent" type="button" data-action="percent">%</button>
           <button class="key operator" type="button" data-action="divide" aria-label="Divide">&divide;</button>
