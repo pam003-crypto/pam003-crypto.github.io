@@ -215,10 +215,10 @@ output {
   left: 50%;
   top: 50%;
   width: 7px;
-  height: 46px;
-  background:
-    radial-gradient(circle at center top, #ffffff 0 3.5px, transparent 3.7px),
-    radial-gradient(circle at center bottom, #ffffff 0 3.5px, transparent 3.7px);
+  height: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 -17px 0 #ffffff, 0 17px 0 #ffffff;
   transform: translate(-50%, -50%);
 }
 
