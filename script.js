@@ -1,5 +1,5 @@
 const mainDisplay = document.querySelector("#mainDisplay");
-const keypad = document.querySelector(".keys");
+const keypad = document.querySelector(".keypad");
 let lastTouchEnd = 0;
 
 document.addEventListener(
